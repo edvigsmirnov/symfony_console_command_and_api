@@ -7,10 +7,12 @@
         "php": ">=8.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "ext-simplexml": "*",
         "doctrine/annotations": "^1.0",
         "doctrine/doctrine-bundle": "^2.8",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.14",
+        "nelmio/api-doc-bundle": "^4.11",
         "phpdocumentor/reflection-docblock": "^5.3",
         "phpstan/phpdoc-parser": "^1.15",
         "sensio/framework-extra-bundle": "^6.1",
@@ -24,6 +26,7 @@
         "symfony/framework-bundle": "6.2.*",
         "symfony/http-client": "6.2.*",
         "symfony/intl": "6.2.*",
+        "symfony/lock": "6.2.*",
         "symfony/mailer": "6.2.*",
         "symfony/mime": "6.2.*",
         "symfony/monolog-bundle": "^3.0",
@@ -41,7 +44,8 @@
         "symfony/web-link": "6.2.*",
         "symfony/yaml": "6.2.*",
         "twig/extra-bundle": "^2.12|^3.0",
-        "twig/twig": "^2.12|^3.0"
+        "twig/twig": "^2.12|^3.0",
+        "zircote/swagger-php": "^4.6"
     },
     "config": {
         "allow-plugins": {
